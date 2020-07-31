@@ -1,52 +1,55 @@
-.menu{
-    background:#bdc3c7;
-    width: 100%;
-    height: 66px;
-    line-height: 66px;
-
+.menu {
+  background: #bdc3c7;
+  width: 100%;
+  height: 66px;
+  line-height: 66px;
 }
 
-.m-left{
-    float: left;
+.m-left {
+  float: left;
+}
+.linkLogo {
+  text-decoration: none;
+}
+.logo {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: "roboto";
+  font-weight: 900;
+  font-size: 35px;
+  letter-spacing: 1px;
 }
 
-.logo{
-    margin: 0;padding: 0;
-    color:#fff;
-    text-transform: uppercase;
-    font-family: 'roboto';
-    font-weight: 900;
-    font-size: 35px;
-    letter-spacing: 1px;
+.m-right {
+  float: right;
 }
 
-.m-right{
-float: right;
+.m-link {
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 0;
+  margin: 0 15px;
+  transition: all 0.3s ease-in-out;
+  border-bottom: 2px solid transparent;
 }
 
-.m-link{
-    text-decoration: none;
-    color: #fff;
-    text-transform: uppercase;
-    font-weight: 700;
-    padding: 0;margin: 0 15px;
-    transition: all 0.3s ease-in-out;
-    border-bottom: 2px solid transparent;
+.m-link:hover {
+  padding-bottom: 3px;
+  border-bottom: 2px solid #fff;
 }
 
-.m-link:hover{
-    padding-bottom: 3px;
-    border-bottom: 2px solid #fff;
-}
-
-.m-link i{
-    margin-right: 5px;
+.m-link i {
+  margin-right: 5px;
 }
 
 #top {
-	background-color: #1166ff;
-	position:fixed;
-        top: 0; /* vaut mieux fixer les valeurs par défaut pour ne pas avoir de mauvaises surprises */
-        left: 0;
-        right: 0;
+  background-color: #1166ff;
+  position: fixed;
+  top: 0; /* vaut mieux fixer les valeurs par défaut pour ne pas avoir de mauvaises surprises */
+  left: 0;
+  right: 0;
 }
