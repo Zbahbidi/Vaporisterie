@@ -43,3 +43,10 @@ float: right;
     margin-right: 5px;
 }
 
+#top {
+	background-color: #1166ff;
+	position:fixed;
+        top: 0; /* vaut mieux fixer les valeurs par défaut pour ne pas avoir de mauvaises surprises */
+        left: 0;
+        right: 0;
+}
