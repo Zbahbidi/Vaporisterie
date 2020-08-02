@@ -28,7 +28,7 @@ header{
 /* couleur du bandeau quand on scroll bas */
 header.sticky{
     padding: 5px 100px;
-    background: rgb(157, 196, 93);
+    background: rgb(137, 138, 137);
 }
 header .logo{
     position: relative ;

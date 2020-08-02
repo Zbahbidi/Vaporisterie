@@ -50,7 +50,7 @@
   align-items: center;
   flex-wrap: wrap;
   padding: 30px;
-  background: rgb(240, 243, 243);
+  background: rgb(209, 211, 211);
 }
 .container .card {
   position: relative;
@@ -62,7 +62,7 @@
   flex-direction: column;
   box-shadow: 0 5px 20px rgba(160, 214, 158, 0.5);
   transition: 0.3s ease-in-out;
-  background:rgba(160, 214, 158, 0.5);
+  background:rgba(245, 248, 245, 0.5);
 }
 .container .card:hover {
   height: 420px;
@@ -74,7 +74,7 @@
   top: -60px;
   left: 20px;
   z-index: 1;
-  box-shadow: 0 5px 20px rgba(160, 214, 158, 0.5);
+  box-shadow: 0 5px 20px rgba(242, 245, 242, 0.5);
 }
 .container .card .imgBx img {
   max-width: 100%;
