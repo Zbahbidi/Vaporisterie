@@ -1,29 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
-* {
-  margin: 0;
-  padding: 0;
-  font-family: "Poppins", sans-serif;
-}
-body {
-  
-  justify-content: center;
-  align-items: center;
-}
+
 .contact-section {
-  margin-top: 100px;
-  background: url(../../images/img4.jpg) no-repeat center;
+  margin-top: 0px;
+
   background-attachment:fixed;
   background-size: contain;
   padding: 40px ;
 }
 .contact-section h1 {
   text-align: center;
-  color: rgb(50, 216, 58);
+  color:  rgb(157, 196, 93);
 }
 .border {
   width: 100px;
   height: 10px;
-  background: #345e44;
+  background:  rgb(157, 196, 93);
   margin: 40px auto;
 }
 
@@ -56,7 +47,7 @@ textarea.contact-form-text {
 .contact-form-btn {
   float: right;
   border: 0;
-  background: #34495e;
+  background:  rgb(157, 196, 93);
   color: #fff;
   padding: 12px 50px;
   border-radius: 20px;

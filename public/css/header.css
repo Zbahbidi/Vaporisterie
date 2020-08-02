@@ -1,55 +1,80 @@
-.menu {
-  background: #bdc3c7;
-  width: 100%;
-  height: 66px;
-  line-height: 66px;
-}
-
-.m-left {
-  float: left;
-}
-.linkLogo {
-  text-decoration: none;
-}
-.logo {
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+* {
   margin: 0;
   padding: 0;
-  color: #fff;
-  text-transform: uppercase;
-  font-family: "roboto";
-  font-weight: 900;
-  font-size: 35px;
-  letter-spacing: 1px;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
 }
 
-.m-right {
-  float: right;
+body
+{
+    background: rgb(248, 243, 243);
+    min-height: 200vh;
 }
 
-.m-link {
-  text-decoration: none;
-  color: #fff;
-  text-transform: uppercase;
-  font-weight: 700;
-  padding: 0;
-  margin: 0 15px;
-  transition: all 0.3s ease-in-out;
-  border-bottom: 2px solid transparent;
+header{
+    z-index: 99;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.6s;
+    padding: 40px 100px;
+}
+/* couleur du bandeau quand on scroll bas */
+header.sticky{
+    padding: 5px 100px;
+    background: rgb(157, 196, 93);
+}
+header .logo{
+    position: relative ;
+    font-weight:700;
+    color: rgb(157, 196, 93);
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: 0.6s;
+}
+header ul {
+    position: relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+header ul li
+{
+    position: relative;
+    list-style: none;
 }
 
-.m-link:hover {
-  padding-bottom: 3px;
-  border-bottom: 2px solid #fff;
+header ul li a
+{
+    position: relative;
+    margin: 0 15px;
+    text-decoration: none;
+    color: rgb(157, 196, 93);
+    letter-spacing: 2px;
+    font-weight: 500px;
+    transition: 0.6s;
+
 }
 
-.m-link i {
-  margin-right: 5px;
-}
+.banner{
+    position: relative;
+    width: 10%;
+    height: 10vh;
+    /* background: url(../../images/img1.jpg); */
+    background-size: cover; 
 
-#top {
-  background-color: #1166ff;
-  position: fixed;
-  top: 0; /* vaut mieux fixer les valeurs par défaut pour ne pas avoir de mauvaises surprises */
-  left: 0;
-  right: 0;
+}
+header.sticky .logo, 
+header.sticky ul li a{
+    color: rgb(248, 243, 243);
+
 }
