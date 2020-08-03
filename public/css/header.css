@@ -28,7 +28,7 @@ header{
 /* couleur du bandeau quand on scroll bas */
 header.sticky{
     padding: 5px 100px;
-    background: rgb(165, 164, 164);
+    background: rgb(241, 239, 239);
 }
 header .logo{
     position: relative ;
@@ -75,53 +75,28 @@ header ul li a
 
 header.sticky .logo, 
 header.sticky ul li a{
-    color: rgb(248, 243, 243);
-
+    color: rgb(157, 196, 93);
 }
 
 .search-box{
-    position: absolute;
-    top:50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    background:rgb(157, 196, 93);
-    height: 40px;
-    border-radius: 40px;
-    padding: 10px;
-}
-
-.search-box:hover > .search-txt{
-    width: 240px;
-    padding: 0 6px;
-}
-
-.search-box:hover > .search-btn{
-    background:#fff;
-}
-
-.search-btn{
     color: rgb(157, 196, 93);
-    float: right;
+    
+}
+
+button {
+    display: inline-block;
+    background-color: rgb(157, 196, 93);
+    border-radius: 2px;
+    border: 2px double #cccccc;
+    color: #eeeeee;
+    text-align: center;
+    font-size: 18px;
+    padding: 1px;
     width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background: rgb(248, 243, 243);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: 0.4s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 4px;
 }
-
-.search-txt{
-    border: none;
-    background: none;
-    outline: none;
-    float: left;
-    padding: 0;
-    color: #fff;
-    font-size: 16px;
-    transition:0.4s;
-    line-height: 40px;
-    width: 0px;
-}
-
