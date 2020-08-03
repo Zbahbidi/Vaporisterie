@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+.article{
+   margin: 50px;
+   padding:60px;
+
+}
+
+.button-article {
+    display: inline-block;
+    background-color: rgb(157, 196, 93);
+    border-radius: 2px;
+    border: 2px double #cccccc;
+    color: #eeeeee;
+    text-align: center;
+    font-size: 18px;
+    padding: 1px;
+    width: 80px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 4px;
+}

@@ -83,7 +83,7 @@ header.sticky ul li a{
     
 }
 
-button {
+.button-go {
     display: inline-block;
     background-color: rgb(157, 196, 93);
     border-radius: 2px;
