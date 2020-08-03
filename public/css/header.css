@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
 * {
-  margin: 0;
-  padding: 0;
-  font-family: "Poppins", sans-serif;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
 }
 
 body
@@ -28,7 +28,7 @@ header{
 /* couleur du bandeau quand on scroll bas */
 header.sticky{
     padding: 5px 100px;
-    background: rgb(137, 138, 137);
+    background: rgb(165, 164, 164);
 }
 header .logo{
     position: relative ;
@@ -71,10 +71,57 @@ header ul li a
     height: 10vh;
     /* background: url(../../images/img1.jpg); */
     background-size: cover; 
-
 }
+
 header.sticky .logo, 
 header.sticky ul li a{
     color: rgb(248, 243, 243);
 
 }
+
+.search-box{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background:rgb(157, 196, 93);
+    height: 40px;
+    border-radius: 40px;
+    padding: 10px;
+}
+
+.search-box:hover > .search-txt{
+    width: 240px;
+    padding: 0 6px;
+}
+
+.search-box:hover > .search-btn{
+    background:#fff;
+}
+
+.search-btn{
+    color: rgb(157, 196, 93);
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: rgb(248, 243, 243);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+}
+
+.search-txt{
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: #fff;
+    font-size: 16px;
+    transition:0.4s;
+    line-height: 40px;
+    width: 0px;
+}
+
