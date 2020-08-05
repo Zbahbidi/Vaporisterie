@@ -24,3 +24,21 @@
     margin: 4px;
 }
 
+.phrase{
+    color: rgb(157, 196, 93);
+    margin: auto;
+    padding: 10px 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.phrase-commu{
+    text-align: center;
+}
+
+.content{
+    color: rgb(157, 196, 93);
+}
+p{
+
+    color: rgb(117, 124, 124);
+}
