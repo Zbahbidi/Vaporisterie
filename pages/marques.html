@@ -27,7 +27,7 @@
             <li><a href="./vaporisateurs.html" class="m-link"><i class="far fa-newspaper">Vaporisateurs</i></a></li>
             <li><a href="#" class="m-link"><i class="fas fa-comments"></i> Forum</a></li>
             <li><a href="boutique.html" class="m-link"><i class="fab fa-shopify"></i> Boutique</a></li>
-            <li><a href="contact.html" class="m-link"><i class="fas fa-address-book"></i> Contacts</a></li>
+            <li><a href="../images/crafty+.jpg" class="m-link"><i class="fas fa-address-book"></i> Contacts</a></li>
 
         </ul>
 
@@ -43,10 +43,13 @@
 
     <img name="slide">
 
-    <script>
+    <script src="javascript.js">
         var i = 0;
-        
-        var images = ['crafty+.jpg', 'mighty.jpg', 'plenty.jpg', 'volcano-classique.jpg'] ;
+        var images = [];
+        var images = new Image() ;
+        console.log(images)
+        image.src = '../images/crafty+.jpg';
+        image.push(image);
     
         var time = 2000;
 
@@ -61,8 +64,9 @@
             }
             setTimeout("changeImg()", time);
         }
-
         window.onload = changeImg;
+
+        
 
 
 
