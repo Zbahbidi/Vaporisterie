@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAROUROU</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.theme.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.core.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Open sans, sans-serif;
+            background: #d3d6ea;
+        }
+
+        .main {
+            padding: 50px 0;
+        }
+
+        img {
+            width: 100%;
+            height: 500px;
+            object-fit: cover;
+        }
+
+        .col-4 {
+            width: 30%;
+            float: left;
+            padding: 30px 70px;
+        }
+
+        .col-8 {
+            width: 66%;
+            float: left;
+        }
+
+        .col-4 h1 {
+            font-size: 40px;
+            border-bottom: 3px solid #3f51b515;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            font-family: Playfair;
+        }
+
+        .col-4 p {
+            font-size: 15px;
+            line-height: 24px;
+            font-weight: 500;
+            opacity: .8;
+        }
+
+        .col-4 a {
+            display: inline-block;
+            padding: 12px 35px;
+            background-color: #3f51b5;
+            color: #fff;
+            border-radius: 50px;
+            text-decoration: none;
+            font-size: 14px;
+            text-transform: uppercase;
+            margin-top: 40px;
+        }
+
+        .glide__arrows {
+            position: absolute;
+            bottom: -30px;
+        }
+
+        .glide__arrows .glide__arrow {
+            background: #3f51b5;
+            border: none;
+            width: 35px;
+            height: 35px;
+            text-align: center;
+            line-height: 35px;
+            border-radius: 50%;
+            color: #fff;
+            font-size: 22px;
+            outline: none;
+            margin-right: 15px;
+            padding: 0;
+        }
+
+        .glide__arrows .glide__arrow .glide__arrow--left {
+            left: 0;
+        }
+
+        .glide__arrows .glide__arrow .glide__arrow--right {
+            right: -80px;
+        }
+
+        .glide__slide {
+            transform: scale(.9);
+            filter: brightness(50%);
+            transition: all ease 0.5s;
+        }
+
+        .glide__slide.glide__slide--active {
+            transform: scale(1);
+            filter: brightness(100%);
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="main">
+        <div class="col-4">
+            <h1>Storz</h1>
+            <p> <br> Storz & Bickel est la fameuse firme Allemande leader du marché depuis plus de 20ans, qui a créé les
+                vaporisateurs Best Seller comme le vaporisateur Volcano Classic ou encore le célèbre Mighty.</br>
+
+                <br> C'est le premier et le seul fabricant d'appareils médicaux certifiés pour l'inhalation de
+                cannabinoïdes.</br>
+
+               <br> Storz & Bickel a mis en avant la qualité de fabrication allemande dans le monde de la vaporisation. 
+                Ce sont des vaporisateurs puissants et versatiles qui ont tout de suite été très populaires. Vous serez
+                forcément intéressé par la fiabilité d'un Crafty, d'un Mighty ou d'un Volcano.</p> </br>
+            <a href="#">En savoir plus</a>
+        </div>
+        <div class="col-8">
+
+            <div class="glide">
+                <div class="glide__track" data-glide-el="track">
+                    <ul class="glide__slides">
+                        <li class="glide__slide"><img src="../images/mighty.jpg" alt=""></li>
+                        <li class="glide__slide"><img src="../images/crafty+.jpg" alt=""></li>
+                        <li class="glide__slide"><img src="../images/plenty.jpg" alt=""></li>
+                        <li class="glide__slide"><img src="../images/volcano-hybrid.jpg" alt=""></li>
+                        <li class="glide__slide"><img src="../images/volcano-classic.jpg" alt=""></li>
+                        <li class="glide__slide"><img src="../images/volcano-digit.jpg" alt=""></li>
+                    </ul>
+                </div>
+
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/glide.min.js"></script>
+
+
+                <script>
+                    new Glide('.glide', {
+                        type: 'carousel',
+                        startAt: 0,
+                        perView: 3,
+                        focusAt: 'center',
+                    }).mount()
+                </script>
+
+</body>
+
+</html>
