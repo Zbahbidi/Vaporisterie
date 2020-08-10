@@ -78,7 +78,7 @@ img {
 }
 
 .glide__arrows .glide__arrow .glide__arrow--left {
-    left: 0;
+    left: -800em;
 }
 
 .glide__arrows .glide__arrow .glide__arrow--right {
