@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.core.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://kit.fontawesome.com/c7fff52afa.js" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/glide.min.js"></script>    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/glide.min.js"></script>
     <script src="../header.js"></script>
     <script src="./test.js"></script>
     <script src="../productsEntreprise.js"></script>
@@ -143,7 +143,7 @@
         </div>
         <div class="titleA">
             <span class="avisTitle"><button onclick="showAvis()">Les avis des vaporistes</button></span>
-            <span class="participateTitle"><button onclick="showAvis()">Moi aussi je participe !</button></span>
+            <span class="participateTitle"><button onclick="participate()">Je participe !</button></span>
         </div>
         <div id="contentAvis" class="contentAvis">
             <div id="avis_1">
@@ -165,13 +165,20 @@
                 <a href="#">Read more</a>
             </div>
         </div>
-        <script>
-            new Glide('.glide', {
-            type: 'carousel',
-            startAt: 0,
-            perView: 3,
-            focusAt: 'center',
-          }).mount()
+
+        <div id="contentParticipate" class="contentParticipate">
+            <div class="buttonsUpDown">
+                <input type="text" id="number" value="0"/>
+                <input class="triangleUp" type="button" onclick="incrementTemp()" value="Increment Temp" />
+                <input class="triangleDown" type="button" onclick="decrementTemp()" value="Decrement Temp" />
+
+        </div>
+
+
+
+        </div>
+        <script src="../carousselProductsEntreprise.js">
+
         </script>
 
     </div>

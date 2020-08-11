@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
 .main {
     position: relative;
-    padding: 200px 0;
+    padding: 25px 0;
 }
 
 img {
@@ -16,12 +16,13 @@ img {
   text-transform: uppercase;
   word-wrap: break-word;
   text-align: center;
-  border-bottom: 2px solid black;
+  border-top: 2px solid rgb(157, 196, 93);
+  border-bottom: 2px solid rgb(157, 196, 93);
   margin-bottom: 30px;
 }
 .titleA {
     position: relative;
-    margin-top: 800px;
+    margin-top: 700px;
     
     color: #000;
     font-weight: 700;
@@ -114,4 +115,23 @@ color: rgb(157, 196, 93);
 .glide__slide.glide__slide--active {
   transform: scale(1);
   filter: brightness(100%);
+}
+
+.triangleUp {
+  width: 0;
+height: 0;
+border-style: solid;
+border-width: 0 41px 71.0px 41px;
+border-color: transparent transparent #22e650 transparent;
+
+}
+
+.triangleDown {
+  width: 0;
+height: 0;
+border-style: solid;
+border-width: 71.0px 41px 0 41px;
+border-color: #c7204a transparent transparent transparent;
+
+
 }
