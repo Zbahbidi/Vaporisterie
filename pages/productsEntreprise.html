@@ -7,64 +7,22 @@
     <title>Document</title>
 
     <link rel="stylesheet" href="../public/css/headerStyle.css">
-    <!-- <link rel="stylesheet" href="../public/css/accueilStyle.css"> -->
-    <!-- <link rel="stylesheet" href="../public/css/vaporisateursStyle.css"> -->
     <link rel="stylesheet" href="../public/css/productsEntreprise.css">
-    <script src="../header.js"></script>
-
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/glide.min.js"></script>
-    <script src="./test.js"></script>
-
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.theme.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.core.min.css">
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-    <!-- <script src="https://kit.fontawesome.com/c7fff52afa.js" crossorigin="anonymous"></script>
-    <script src="../header.js"></script> -->
-
-
+    <script src="https://kit.fontawesome.com/c7fff52afa.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/glide.min.js"></script>    
+    <script src="../header.js"></script>
+    <script src="./test.js"></script>
+    <script src="../productsEntreprise.js"></script>
 
 
     <title>Vaporisterie</title>
-    <script Language="javascript">
-        var element = document.getElementById('unid'); //La div possède l'id "unid" qui sert à la repérer
-        element.innerHTML = 'ceci est du texte'; //On écrit "ceci est du texte" dans la div
 
-        var list_div = new Array('page1', 'page2', 'page3');
-
-        //Au chargement de la page, on ne laisse affichée que la première div
-        window.onload = function () {
-            for (var i = 1; i < list_div.length; i++) { //On commence la boucle à 1 pour ne pas modifier la première div de la liste
-                var div = document.getElementById(list_div[i]);
-                div.style.display = 'none';
-            }
-        }
-
-        function displayDiv(id) {
-            for (var i = 0; i < list_div.length; i++) {
-                var div = document.getElementById(list_div[i]);
-                //On rend la div visible si son id est le même que celui passé en paramètre de la fonction, sinon on la masque
-                div.style.display = (div.id == id ? '' : 'none');
-            }
-        }
-        function showAvis() {
-            var div = document.getElementById("contentAvis");
-
-            if (div.style.display == "none") {
-                div.style.display = "inline";
-            } else {
-                div.style.display = "none";
-                
-            }
-        }
-    </script>
 </head>
 
 <body>
-
 
     <header>
         <a href="./index.html" class="logo">
@@ -75,18 +33,15 @@
             <li><a href="./vaporisateurs.html" class="m-link"><i class="far fa-newspaper">Vaporisateurs</i></a></li>
             <li><a href="#" class="m-link"><i class="fas fa-comments"></i> Forum</a></li>
             <li><a href="boutique.html" class="m-link"><i class="fab fa-shopify"></i> Boutique</a></li>
-            <li><a href="../images/crafty+.jpg" class="m-link"><i class="fas fa-address-book"></i> Contacts</a></li>
+            <li><a href="contact.html" class="m-link"><i class="fas fa-address-book"></i> Contacts</a></li>
 
         </ul>
 
         <div class="search-box">
             <label for="site-search">Rechercher:</label>
             <input type="search" id="site-search" name="q" aria-label="Search through site content">
-
             <button class="button-go">Go</button>
-
         </div>
-
     </header>
 
 
@@ -146,13 +101,24 @@
                     considérée comme en danger..</p>
                 <a href="#">Read more</a>
             </div>
-
         </div>
-        <div class="col-8">
 
+        <div class="col-8">
             <div class="glide">
                 <div class="glide__track" data-glide-el="track">
                     <ul class="glide__slides">
+                        <button onclick="displayDiv('page1')">
+                            <li class="glide__slide"><img src="../images/volcano-digit.jpg" alt=""></li></a>
+                        </button>
+                        <button onclick="displayDiv('page2')">
+                            <li class="glide__slide"><img src="../images/crafty+.jpg" alt=""></li>
+                        </button>
+                        <button onclick="displayDiv('page3')">
+                            <li class="glide__slide"><img src="../images/plenty.jpg" alt=""></li>
+                        </button>
+                        <button onclick="displayDiv('page4')">
+                            <li class="glide__slide"><img src="../images/volcano-classic.jpg" alt=""></li>
+                        </button>
                         <button onclick="displayDiv('page1')">
                             <li class="glide__slide"><img src="../images/volcano-digit.jpg" alt=""></li></a>
                         </button>
@@ -172,18 +138,14 @@
                             class="fa fa-angle-left"></i></button>
                     <button class="glide__arrow glide__arrow--left" data-glide-dir=">"><i
                             class="fa fa-angle-right"></i></button>
-
                 </div>
             </div>
-            <script src="../productsEntreprise.js"></script>
-
-
         </div>
         <div class="titleA">
-            <button onclick="showAvis()">Les avis des vaporistes</button>
-            <button onclick="showAvis()">Moi aussi je participe !</button>
+            <span class="avisTitle"><button onclick="showAvis()">Les avis des vaporistes</button></span>
+            <span class="participateTitle"><button onclick="showAvis()">Moi aussi je participe !</button></span>
         </div>
-        <div id="contentAvis">
+        <div id="contentAvis" class="contentAvis">
             <div id="avis_1">
                 <h1>Ryan - 18 ans+</h1>
                 <p>L'apparence bizarre de ce mammifère pondant des ?ufs, muni d'aiguillons venimeux, à bec de canard, à
@@ -203,13 +165,16 @@
                 <a href="#">Read more</a>
             </div>
         </div>
+        <script>
+            new Glide('.glide', {
+            type: 'carousel',
+            startAt: 0,
+            perView: 3,
+            focusAt: 'center',
+          }).mount()
+        </script>
 
     </div>
-
-    <script src="./test.js"></script>
-
-
-
 </body>
 
 </html>

@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
 .main {
     position: relative;
-  padding: 200px 0;
+    padding: 200px 0;
 }
 
 img {
@@ -30,6 +30,15 @@ img {
     text-align: center;
     margin-bottom: 30px;
   }
+
+.contentAvis{
+  
+}
+
+h1{
+color: rgb(157, 196, 93);
+}
+
 .col-4 {
   width: 30%;
   float: left;
@@ -38,7 +47,7 @@ img {
 
 .col-8 {
   width: 66%;
-  float: left;
+  float: right;
 }
 
 .col-4 h1 {
