@@ -175,11 +175,12 @@
         <div id="contentParticipate" class="contentParticipate">
             <form action="" method="get" class="form-participate">
                 <h2>Sofien réagit sur ce produit :</h2>
+                <h3>TEMPERATURE ?</h3>
                 <div class="form-temp">
-                    <label for="name"> Select the temp ! </label>
                     <div class="buttonsUp">
                         <div class="triangleUp" type="button" onclick="incrementTemp()" value="Increment Temp"></div>
                     </div>
+                    <input type="text" id="number" class="tempNum" value="0" />
                     <div class="buttonsDown">
                         <div class="triangleDown" type="button" onclick="decrementTemp()" value="Decrement Temp"></div>
                     </div>
@@ -190,16 +191,16 @@
                     </textarea>
                 </div>
                 <div class="form-example">
-                    <input type="submit" value="j'envoi la sauce !">
+                    <input class="buttonSubmit" type="submit" value="j'envoi la sauce !">
                 </div>
             </form>
 
-            <div class="termo">
+            <!-- <div class="termo">
                 <div id="numberTemp" class="temp">
                     <input type="text" id="number" class="tempNum" value="0" />
                     <!-- <span id="number" class="temNum">0</span> -->
                 </div>
-            </div>
+            </div> -->
         </div>
 
         <script src="../carousselProductsEntreprise.js"></script>
