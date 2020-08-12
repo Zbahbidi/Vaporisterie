@@ -42,3 +42,16 @@ p{
 
     color: rgb(117, 124, 124);
 }
+
+.buttonCard{
+    border: none;
+}
+.buttonCard:hover{
+opacity: 1;
+visibility: visible;
+transition-delay: 0.2s;
+border: none;
+filter: brightness(1.5);
+cursor: pointer;
+
+}

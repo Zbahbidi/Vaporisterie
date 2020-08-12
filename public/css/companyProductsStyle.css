@@ -100,7 +100,7 @@
 .container .card:hover .contentBx .notes {
     opacity: 1;
     visibility: visible;
-    transition-delay: 0.5s ;
+    transition-delay: 0.5s;
 }
 
 .container .card .contentBx .notes h3 {

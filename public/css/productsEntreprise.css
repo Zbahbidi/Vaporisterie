@@ -47,7 +47,7 @@ img {
   text-align: center;
 }
 
-.tempNum {
+.form-temp input[type=text]{
   position: flex;
   border: hidden;
   background: rgb(248, 243, 243);
@@ -56,6 +56,38 @@ img {
   width: 338px;
   margin: 10px 2.5% 10px 2.5%;
 }
+
+input[type=number] {
+  -moz-appearance: textfield;
+  text-align: center;
+  border: hidden;
+  border-radius: 20vh;
+  
+}
+
+
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    margin:0;
+}
+
+
+input::-o-inner-spin-button,
+input::-o-outer-spin-button {
+  -o-appearance: none;
+  margin: 0
+}
+/* 
+.tempNum {
+  position: flex;
+  border: hidden;
+  background: rgb(248, 243, 243);
+  border-bottom: #000;
+  height: 25px;
+  width: 338px;
+  margin: 10px 2.5% 10px 2.5%;
+} */
 .form-temp {
   display: inline-block;
   width: 20%;
