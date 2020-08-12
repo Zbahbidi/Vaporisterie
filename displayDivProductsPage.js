@@ -41,7 +41,7 @@ function participate() {
   
   function incrementTemp()
   {
-      var value = parseInt(document.getElementById('number').value, 10);
+      var value = parseInt(document.getElementById('number').value, 0);
       value = isNaN(value) ? 0 : value;
       value = value +10;
       document.getElementById('number').value = value;
@@ -49,7 +49,7 @@ function participate() {
   
   function decrementTemp()
   {
-      var value = parseInt(document.getElementById('number').value, 10);
+      var value = parseInt(document.getElementById('number').value, 0);
       value = isNaN(value) ? 0 : value;
       value = value -10;
       document.getElementById('number').value = value;
