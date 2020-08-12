@@ -37,24 +37,45 @@ function participate() {
     } else {
         div.style.display = "none";
     }
-  }
-  
-  function incrementTemp()
-  {
-      var value = parseInt(document.getElementById('number').value, 0);
-      value = isNaN(value) ? 0 : value;
-      value = value +10;
-      document.getElementById('number').value = value;
-  }
-  
-  function decrementTemp()
-  {
-      var value = parseInt(document.getElementById('number').value, 0);
-      value = isNaN(value) ? 0 : value;
-      value = value -10;
-      document.getElementById('number').value = value;
-  }
-  
+}
+
+function incrementTemp() {
+    var value = parseInt(document.getElementById('number').value, 0);
+    value = isNaN(value) ? 0 : value;
+    value = value + 10;
+    document.getElementById('number').value = value;
+    if (value < 73){
+        document.getElementById('number').style="color:red;";
+      } 
+      else if (value < 146 && value > 73) {
+        document.getElementById('number').style="color:orange;";
+
+      }
+      else{
+        document.getElementById('number').style="color:green;";
+
+      }
+}
+
+function decrementTemp() {
+    var value = parseInt(document.getElementById('number').value, 0);
+    value = isNaN(value) ? 0 : value;
+    value = value - 10;
+    document.getElementById('number').value = value;
+
+    if (value < 73){
+        document.getElementById('number').style="color:red;";
+      } 
+      else if (value < 146 && value > 73) {
+        document.getElementById('number').style="color:orange;";
+
+      }
+      else{
+        document.getElementById('number').style="color:green;";
+
+      }
+}
 
 
-  
+
+
