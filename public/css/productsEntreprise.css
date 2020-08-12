@@ -46,8 +46,16 @@ img {
   margin: 100px 2.5% 10px 2.5%;
   text-align: center;
 }
-
+input[type="text"]
+{   
+  color:rgb(184, 73, 73);
+  position: flex;
+  font-size:30px;
+  text-align: center;
+}
 .tempNum {
+  background: transparent; 
+  outline: 0;
   position: flex;
   border: hidden;
   background: rgb(248, 243, 243);
@@ -58,7 +66,7 @@ img {
 }
 .form-temp {
   display: inline-block;
-  width: 20%;
+  width: 30%;
   margin: 10px 2.5% 10px 2.5%;
   text-align: right;
 }
@@ -196,9 +204,6 @@ h3 {
   float: center;
 }
 
-.number {
-  font-size: 19px;
-}
 
 /* .temp {
   position: absolute;
