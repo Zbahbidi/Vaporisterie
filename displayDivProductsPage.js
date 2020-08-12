@@ -30,3 +30,29 @@ function showAvis() {
         div.style.display = "none";
     }
 }
+function participate() {
+    var div = document.getElementById("contentParticipate");
+    if (div.style.display == "none") {
+        div.style.display = "inline";
+    } else {
+        div.style.display = "none";
+    }
+  }
+  
+  function incrementTemp()
+  {
+      var value = parseInt(document.getElementById('number').value, 10);
+      value = isNaN(value) ? 0 : value;
+      value++;
+      document.getElementById('number').value = value;
+  }
+  
+  function decrementTemp()
+  {
+      var value = parseInt(document.getElementById('number').value, 10);
+      value = isNaN(value) ? 0 : value;
+      value--;
+      document.getElementById('number').value = value;
+  }
+  
+  
