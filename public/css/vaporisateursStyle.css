@@ -10,8 +10,8 @@
     display: inline-block;
     background-color: rgb(157, 196, 93);
     border-radius: 2px;
-    border: 2px double #cccccc;
-    color: #eeeeee;
+    border: 2px double #ffffff;
+    color: #ffffff;
     text-align: center;
     font-size: 18px;
     padding: 1px;
@@ -34,13 +34,18 @@
 .phrase-commu{
     text-align: center;
 }
+.phrase-commu p{
+    text-align: center;
+    font-weight: bold;
+}
 
 .content{
     color: rgb(157, 196, 93);
 }
 p{
 
-    color: rgb(117, 124, 124);
+    color: rgb(133, 133, 133);
+    margin-top: 10px;
 }
 
 .buttonCard{
@@ -49,9 +54,17 @@ p{
 .buttonCard:hover{
 opacity: 1;
 visibility: visible;
-transition-delay: 0.2s;
+transition-delay: 0.01s;
 border: none;
-filter: brightness(1.5);
+filter: brightness(2);
 cursor: pointer;
+}
 
+.buttonCard img {
+    background-color: #ffffff;
+}
+
+.card .imgBX {
+    color: rgb(255, 255, 255);
+    background-color: #ffffff;
 }
