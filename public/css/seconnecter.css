@@ -1,16 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
 
-.form-inscriptionform-inscription {
+.contact-section {
     margin-top: 0px;
 
     background-attachment: fixed;
     background-size: contain;
     padding: 40px;
+    font-weight: bold;
 }
 
-.form-inscription h1 {
+.form-connexion h1 {
     text-align: center;
     color: rgb(157, 196, 93);
+    font-size: 40px;
 }
 
 .border {
@@ -33,20 +35,16 @@
     box-sizing: border-box;
     margin: 16px 0;
     border: 0;
-    background: rgb(160, 155, 155);
+    background: rgb(153, 151, 151);
     padding: 20px 40px;
     outline: none;
     color: #ddd;
     transition: 0.5s;
+    border-radius: 20PX;
 }
 
 .contact-form-text:focus {
-    box-shadow: 0 0 10px 4px #34495e;
-}
-
-textarea.contact-form-text {
-    resize: none;
-    height: 120px;
+    box-shadow: 0 0 10px 4px rgb(157, 196, 93);
 }
 
 .contact-form-btn {
@@ -58,21 +56,17 @@ textarea.contact-form-text {
     border-radius: 20px;
     cursor: pointer;
     transition: 0.5s;
-    margin-left: 15px;
-
+    margin-left: 20px;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 .contact-form-btn:hover {
-    background: #2980b9;
+    background: olivedrab;
 }
 
-.fas fa-thumbs-up {
-
-    color: green;
-
-}
-
-.fas fa-thumbs-down {
-
-    background-color: red;
+::placeholder {
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
 }

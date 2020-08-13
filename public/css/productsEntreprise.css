@@ -85,12 +85,7 @@ input[type=number] {
   -moz-appearance: textfield;
   text-align: center;
   border: hidden;
-<<<<<<< HEAD
-  border-radius: 20vh;
-  font-size: 32px;
-=======
   border-radius: 400vh;
->>>>>>> 76bde12c890a7d1c49af8efc789af97ce5068b22
   
 }
 
