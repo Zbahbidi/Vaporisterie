@@ -21,6 +21,24 @@ function displayDiv(id) {
         div.style.display = (div.id == id ? '' : 'none');
     }
 }
+function decrementTemp() {
+    var value = parseInt(document.getElementById('number').value, 0);
+    value = isNaN(value) ? 0 : value;
+    value = value - 10;
+    document.getElementById('number').value = value;
+
+    if (value < 73){
+        document.getElementById('number').style="color:red;";
+      } 
+      else if (value < 146 && value > 73) {
+        document.getElementById('number').style="color:orange;";
+
+      }
+      else{
+        document.getElementById('number').style="color:green;";
+
+      }
+}
 
 function showAvis() {
     var div = document.getElementById("contentAvis");

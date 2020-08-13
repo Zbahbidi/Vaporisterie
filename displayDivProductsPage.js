@@ -39,41 +39,23 @@ function participate() {
     }
 }
 
-function incrementTemp() {
-    var value = parseInt(document.getElementById('number').value, 0);
+function incrementThumbsUp() {
+    var value = parseInt(document.getElementById('numberThumbsUp').value, 0);
     value = isNaN(value) ? 0 : value;
-    value = value + 10;
-    document.getElementById('number').value = value;
-    if (value < 73){
-        document.getElementById('number').style="color:red;";
-      } 
-      else if (value < 146 && value > 73) {
-        document.getElementById('number').style="color:orange;";
+    value = value + 1;
+    document.getElementById('numberThumbsUp').value = value;
+    document.getElementById('numberThumbsUp').style = "color:green;";
 
-      }
-      else{
-        document.getElementById('number').style="color:green;";
-
-      }
 }
 
-function decrementTemp() {
-    var value = parseInt(document.getElementById('number').value, 0);
+function incrementThumbsDown() {
+    var value = parseInt(document.getElementById('numberThumbsDown').value, 0);
     value = isNaN(value) ? 0 : value;
-    value = value - 10;
-    document.getElementById('number').value = value;
+    value = value + 1;
+    document.getElementById('numberThumbsDown').value = value;
+    document.getElementById('numberThumbsDown').style = "color:red;";
 
-    if (value < 73){
-        document.getElementById('number').style="color:red;";
-      } 
-      else if (value < 146 && value > 73) {
-        document.getElementById('number').style="color:orange;";
 
-      }
-      else{
-        document.getElementById('number').style="color:green;";
-
-      }
 }
 
 
