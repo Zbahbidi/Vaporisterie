@@ -70,6 +70,7 @@ input[type=number] {
   text-align: center;
   border: hidden;
   border-radius: 20vh;
+  font-size: 32px;
   
 }
 
@@ -211,35 +212,6 @@ h3 {
   overflow: hidden;
 }
 
-.buttonUpDown {
+i {
+
 }
-
-.triangleUp {
-  position: flex;
-  width: 0;
-  top: 1100px;
-  height: 0;
-  border-style: solid;
-  border-width: 0 41px 71px 41px;
-  border-color: transparent transparent #22e650 transparent;
-  float: center;
-}
-
-.triangleDown {
-  position: flex;
-  top: 90px;
-  width: 0;
-  height: 0;
-  border-style: solid;
-  border-width: 71px 41px 0 41px;
-  border-color: #c7204a transparent transparent transparent;
-  float: center;
-}
-
-
-/* .temp {
-  position: absolute;
-  background-color:rgb(20, 8, 8);;
-  color:rgb(20, 8, 8);
-  font-size:40px;
-} */

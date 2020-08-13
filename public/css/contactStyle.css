@@ -31,7 +31,7 @@
   box-sizing: border-box;
   margin: 16px 0;
   border: 0;
-  background: #111;
+  background: rgb(160, 155, 155);
   padding: 20px 40px;
   outline: none;
   color: #ddd;
@@ -56,4 +56,15 @@ textarea.contact-form-text {
 }
 .contact-form-btn:hover {
   background: #2980b9;
+}
+
+.fas fa-thumbs-up {
+
+color: green;
+
+}
+
+.fas fa-thumbs-down {
+
+background-color: red;
 }

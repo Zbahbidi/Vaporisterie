@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+.form-inscriptionform-inscription {
+    margin-top: 0px;
+
+    background-attachment: fixed;
+    background-size: contain;
+    padding: 40px;
+}
+
+.form-inscription h1 {
+    text-align: center;
+    color: rgb(157, 196, 93);
+}
+
+.border {
+    width: 100px;
+    height: 10px;
+    background: rgb(157, 196, 93);
+    margin: 40px auto;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: auto;
+    padding: 0 10px;
+    overflow: hidden;
+}
+
+.contact-form-text {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 16px 0;
+    border: 0;
+    background: rgb(160, 155, 155);
+    padding: 20px 40px;
+    outline: none;
+    color: #ddd;
+    transition: 0.5s;
+}
+
+.contact-form-text:focus {
+    box-shadow: 0 0 10px 4px #34495e;
+}
+
+textarea.contact-form-text {
+    resize: none;
+    height: 120px;
+}
+
+.contact-form-btn {
+    float: right;
+    border: 0;
+    background: rgb(157, 196, 93);
+    color: #fff;
+    padding: 12px 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-left: 15px;
+
+}
+
+.contact-form-btn:hover {
+    background: #2980b9;
+}
+
+.fas fa-thumbs-up {
+
+    color: green;
+
+}
+
+.fas fa-thumbs-down {
+
+    background-color: red;
+}
