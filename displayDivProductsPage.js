@@ -6,8 +6,6 @@ var list_div = new Array('page1', 'page2', 'page3', 'page4');
 
 //Au chargement de la page, on ne laisse affichée que la première div
 window.onload = function () {
-    var div2 = document.getElementById("contentAvis");
-    div2.style.display = 'none';
     for (var i = 1; i < list_div.length; i++) { //On commence la boucle à 1 pour ne pas modifier la première div de la liste
         var div = document.getElementById(list_div[i]);
         div.style.display = 'none';
