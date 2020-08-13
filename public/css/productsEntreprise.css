@@ -39,41 +39,59 @@ img {
   text-align: center;
 }
 
-.buttonsUp {
-  display: inline-block;
-  top: 200px;
-  width: 45%;
-  margin: 100px 2.5% 10px 2.5%;
-  text-align: center;
-}
-input[type="number"]
-{   
-  color:rgb(184, 73, 73);
-  position: flex;
-  font-size:90px;
-  text-align: center;
-}
-.tempNum {
-  background: transparent; 
-  outline: 0;
-  position: flex;
-  border: hidden;
-  background: rgb(248, 243, 243);
-  border-bottom: #000;
-  height: 25px;
-  width: 338px;
-  margin: 10px 2.5% 10px 2.5%;
-}
 
-input[type=number] {
-  -moz-appearance: textfield;
-  text-align: center;
-  border: hidden;
-  border-radius: 20vh;
+
+
+
+.containerTitleLike{
+  display:flex;
+}
+.title{
   
 }
 
+.compteurUp{
 
+}
+.compteurDown{
+
+}
+
+.numberThumbsDown{
+  /* width:20px; */
+  color:"red";
+}
+
+.thumpsDown{
+  display: inline-block;
+  
+}
+.numberThumbsUp{
+  /* width:60px; */
+  color:"green";
+}
+
+.thumpsUp{
+  display: inline-block;
+  
+}
+
+input[type=number] {
+  width:100px;
+
+  background: rgb(248, 243, 243);
+  color:rgb(220, 207, 207);
+  font-size:30px;
+  -moz-appearance: textfield;
+  text-align: center;
+  border: hidden;
+  border-radius: 400vh;
+  
+}
+
+.contentPage{
+  
+}
 input::-webkit-inner-spin-button,
 input::-webkit-outer-spin-button { 
     -webkit-appearance: none;
@@ -86,16 +104,8 @@ input::-o-outer-spin-button {
   -o-appearance: none;
   margin: 0
 }
-/* 
-.tempNum {
-  position: flex;
-  border: hidden;
-  background: rgb(248, 243, 243);
-  border-bottom: #000;
-  height: 25px;
-  width: 338px;
-  margin: 10px 2.5% 10px 2.5%;
-} */
+
+
 .form-temp {
   display: inline-block;
   width: 30%;
@@ -113,8 +123,6 @@ input::-o-outer-spin-button {
 .avisTitle {
   position: flex;
   left: 10px;
-}
-.contentAvis {
 }
 
 h1 {
@@ -201,45 +209,8 @@ h3 {
   filter: brightness(100%);
 }
 
-.thermo {
-  border-radius: 55px;
-  background: rgb(149, 39, 39);
-  box-shadow: inset 16px 16px 32px #891d1d;
-  height: 50pv;
-  width: 6vw;
-  position: flex;
-  overflow: hidden;
-}
-
-.buttonUpDown {
-}
-
-.triangleUp {
-  position: flex;
-  width: 0;
-  top: 1100px;
-  height: 0;
-  border-style: solid;
-  border-width: 0 41px 71px 41px;
-  border-color: transparent transparent #22e650 transparent;
-  float: center;
-}
-
-.triangleDown {
-  position: flex;
-  top: 90px;
-  width: 0;
-  height: 0;
-  border-style: solid;
-  border-width: 71px 41px 0 41px;
-  border-color: #c7204a transparent transparent transparent;
-  float: center;
-}
 
 
-/* .temp {
-  position: absolute;
-  background-color:rgb(20, 8, 8);;
-  color:rgb(20, 8, 8);
-  font-size:40px;
-} */
+
+
+
