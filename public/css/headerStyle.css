@@ -5,7 +5,16 @@
     font-family: "Poppins", sans-serif;
     box-sizing: border-box;
 }
+footer{ 
+    background: rgb(248, 243, 243);
 
+    position: fixed;
+    text-align: center;
+    bottom:0;
+    width:100%;    
+    height:50px;
+
+}
 body
 {
     background: rgb(248, 243, 243);
