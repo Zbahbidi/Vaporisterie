@@ -21,7 +21,7 @@ body
     min-height: 200vh;
 }
 
-header{
+.header{
     z-index: 99;
     overflow: hidden;
     position: static;
@@ -35,11 +35,11 @@ header{
     padding: 40px 100px;
 }
 /* couleur du bandeau quand on scroll bas */
-header.sticky{
+.header.sticky{
     padding: 5px 100px;
     background: rgb(241, 239, 239);
 }
-header .logo{
+.header .logo{
     position: relative ;
     font-weight:700;
     color: rgb(157, 196, 93);
@@ -48,21 +48,20 @@ header .logo{
     text-transform: uppercase;
     letter-spacing: 2px;
     transition: 0.6s;
-}
-header ul {
+}.header ul {
     position: relative;
     display:flex;
     justify-content: center;
     align-items: center;
 
 }
-header ul li
+.header ul li
 {
     position: relative;
     list-style: none;
 }
 
-header ul li a
+.header ul li a
 {
     position: relative;
     margin: 0 15px;
@@ -73,6 +72,31 @@ header ul li a
     transition: 0.6s;
 
 }
+.header .icon {
+    display: none;
+  }
+
+@media screen and (max-width: 600px) {
+    .header a:not(:first-child) {display: none;}
+    .header a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .header.responsive {position: relative;}
+    .header.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .header.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }
 
 .banner{
     position: relative;
@@ -82,8 +106,8 @@ header ul li a
     background-size: cover; 
 }
 
-header.sticky .logo, 
-header.sticky ul li a{
+.header.sticky .logo, 
+.header.sticky ul li a{
     color: rgb(157, 196, 93);
 }
 
