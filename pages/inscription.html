@@ -8,8 +8,10 @@
     <link rel="stylesheet" href="../public/css/contactStyle.css">
     <link rel="stylesheet" href="../public/css/headerStyle.css">
     <link rel="stylesheet" href="../public/css/inscription.css">
+    
     <script src="../header.js"></script>
     <script src="https://kit.fontawesome.com/c7fff52afa.js" crossorigin="anonymous"></script>
+    <script src="inscription.js"></script>
 
 
     <title>Formulaire d'inscription</title>
@@ -36,12 +38,20 @@
 
         <h1>Formulaire d'inscription</h1>
         <div class="border"></div>
-        <form class="contact-form" action="index.html" method="post">
-            <input type="text" class="contact-form-text" placeholder="Votre pseudo">
-            <input type="email" class="contact-form-text" placeholder="Votre email">
-            <input type="password" class="contact-form-text" placeholder="Votre mot de passe">
-            <!-- <textarea class="contact-form-text" placeholder="Your message"></textarea> -->
-            <input type="submit" class="contact-form-btn" value="Envoyer">
+        <form class="contact-form" action="traitement.php" method="post" id="contact-form">
+            <label for="pseudo">Votre pseudo:</label>
+            <input type="text" class="contact-form-text" id="pseudo" placeholder="Votre pseudo">
+            <br>
+            <span id="error"></span>
+            
+            <!-- <label for="email">Votre email:</label>
+            <input type="email" class="contact-form-text" id="email" placeholder="Votre email">
+            
+            
+            <label for="mot_de_passe">Votre mot de passe:</label>
+            <input type="password" class="contact-form-text"id="mot_de_passe" placeholder="Votre mot de passe">
+            -->
+            <input type="submit" class="contact-form-btn" value="Envoyer" id="validation-form">
             <input type="reset" class="contact-form-btn" value="Effacer">
             
         </form>
