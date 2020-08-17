@@ -68,6 +68,18 @@
 ::placeholder{
     color:white;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 22px;
     
+}
+
+.contact-form label{
+
+    color: rgb(157, 196, 93);
+    font-weight: bold;
+    font-size: 32px;
+
+}
+.contact-form input{
+    font-size: 22px;
+    font-weight: bold;
 }

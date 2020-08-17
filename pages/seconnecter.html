@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="../public/css/contactStyle.css">
     <link rel="stylesheet" href="../public/css/headerStyle.css">
     <link rel="stylesheet" href="../public/css/seconnecter.css">
+
     <script src="../header.js"></script>
     <script src="https://kit.fontawesome.com/c7fff52afa.js" crossorigin="anonymous"></script>
 
@@ -50,18 +51,24 @@
 
         <h1>Se connecter</h1>
         <div class="border"></div>
-        <form class="contact-form" action="index.html" method="post">
-            <input type="text" class="contact-form-text" placeholder="Votre pseudo">
+        <form class="connexion-form" action="traitement.php" method="post">
+            <label for="pseudo">Votre pseudo:</label>
+            <input type="text" class="connexion-form-text" placeholder="Pseudo" id="pseudo">
+            <span id="errorPseudo"></span>
+            <br>
             <!-- <input type="email" class="contact-form-text" placeholder="Votre email"> -->
-            <input type="password" class="contact-form-text" placeholder="Votre mot de passe">
-            <!-- <textarea class="contact-form-text" placeholder="Your message"></textarea> -->
-            <input type="submit" class="contact-form-btn" value="Envoyer">
-            <input type="reset" class="contact-form-btn" value="Effacer">
+            <label for="password">Votre mot de passe:</label>
+            <input type="password" class="connexion-form-text" placeholder="Mot de passe" id="password">
+            <span id="errorPassword"></span>
+            <br>
+          
+            <input type="submit" class="connexion-form-btn" value="Se connecter" id="validation-form">
+            <input type="reset" class="connexion-form-btn" value="Effacer">
 
         </form>
     </div>
+    <script src="../test/seconnecter.js"></script>
 
-    <script src="../header.js"></script>
     <footer>
         <span>© 2020 VAPORTISTE.INC</span><span><a href=""></a></span>
 

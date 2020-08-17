@@ -8,8 +8,10 @@
     <link rel="stylesheet" href="../public/css/contactStyle.css">
     <link rel="stylesheet" href="../public/css/headerStyle.css">
     <link rel="stylesheet" href="../public/css/inscription.css">
+    
     <script src="../header.js"></script>
     <script src="https://kit.fontawesome.com/c7fff52afa.js" crossorigin="anonymous"></script>
+
 
 
     <title>Formulaire d'inscription</title>
@@ -50,17 +52,25 @@
 
         <h1>Formulaire d'inscription</h1>
         <div class="border"></div>
-        <form class="contact-form" action="index.html" method="post">
-            <input type="text" class="contact-form-text" placeholder="Votre pseudo">
-            <input type="email" class="contact-form-text" placeholder="Votre email">
-            <input type="password" class="contact-form-text" placeholder="Votre mot de passe">
-            <!-- <textarea class="contact-form-text" placeholder="Your message"></textarea> -->
-            <input type="submit" class="contact-form-btn" value="Envoyer">
+        <form class="contact-form" action="traitement.php" method="POST" id="contact-form">
+            <label for="pseudo">Votre pseudo:</label>
+            <input type="text" class="contact-form-text" id="pseudo" placeholder="Pseudo">
+            <span id="errorPseudo"></span>
+            <br>
+            <label for="email">Votre e-mail:</label>
+            <input type="email" class="contact-form-text" id="email" placeholder="E-mail">
+            <span id="errorMail"></span>
+            <br>
+            <label for="mot_de_passe">Votre mot de passe:</label>
+            <input type="password" class="contact-form-text"id="password" placeholder="Mot de passe">
+            <span id="errorPassword"></span>
+            <br>
+            <input type="submit" class="contact-form-btn" value="Envoyer" id="validation-form">
             <input type="reset" class="contact-form-btn" value="Effacer">
             
         </form>
     </div>
-    
+    <script src="../test/inscription.js"></script>
 
 </body>
 
