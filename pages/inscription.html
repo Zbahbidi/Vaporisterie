@@ -11,7 +11,7 @@
     
     <script src="../header.js"></script>
     <script src="https://kit.fontawesome.com/c7fff52afa.js" crossorigin="anonymous"></script>
-    <script src="inscription.js"></script>
+
 
 
     <title>Formulaire d'inscription</title>
@@ -38,25 +38,25 @@
 
         <h1>Formulaire d'inscription</h1>
         <div class="border"></div>
-        <form class="contact-form" action="traitement.php" method="post" id="contact-form">
+        <form class="contact-form" action="traitement.php" method="POST" id="contact-form">
             <label for="pseudo">Votre pseudo:</label>
-            <input type="text" class="contact-form-text" id="pseudo" placeholder="Votre pseudo">
+            <input type="text" class="contact-form-text" id="pseudo" placeholder="Pseudo">
+            <span id="errorPseudo"></span>
             <br>
-            <span id="error"></span>
-            
-            <!-- <label for="email">Votre email:</label>
-            <input type="email" class="contact-form-text" id="email" placeholder="Votre email">
-            
-            
+            <label for="email">Votre e-mail:</label>
+            <input type="email" class="contact-form-text" id="email" placeholder="E-mail">
+            <span id="errorMail"></span>
+            <br>
             <label for="mot_de_passe">Votre mot de passe:</label>
-            <input type="password" class="contact-form-text"id="mot_de_passe" placeholder="Votre mot de passe">
-            -->
+            <input type="password" class="contact-form-text"id="password" placeholder="Mot de passe">
+            <span id="errorPassword"></span>
+            <br>
             <input type="submit" class="contact-form-btn" value="Envoyer" id="validation-form">
             <input type="reset" class="contact-form-btn" value="Effacer">
             
         </form>
     </div>
-    
+    <script src="../test/inscription.js"></script>
 
 </body>
 

@@ -22,14 +22,14 @@
     margin: 40px auto;
 }
 
-.contact-form {
+.connexion-form {
     max-width: 600px;
     margin: auto;
     padding: 0 10px;
     overflow: hidden;
 }
 
-.contact-form-text {
+.connexion-form-text {
     display: block;
     width: 100%;
     box-sizing: border-box;
@@ -43,11 +43,11 @@
     border-radius: 20PX;
 }
 
-.contact-form-text:focus {
+.connexion-form-text:focus {
     box-shadow: 0 0 10px 4px rgb(157, 196, 93);
 }
 
-.contact-form-btn {
+.connexion-form-btn {
     float: right;
     border: 0;
     background: rgb(157, 196, 93);
@@ -61,12 +61,24 @@
     font-weight: bold;
 }
 
-.contact-form-btn:hover {
+.connexion-form-btn:hover {
     background: olivedrab;
 }
 
 ::placeholder {
     color: white;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 22px;
+}
+
+.connexion-form label{
+    color: rgb(157, 196, 93);
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.connexion-form input{
+    font-size: 22px;
+    font-weight: bold;
+    }
 }
