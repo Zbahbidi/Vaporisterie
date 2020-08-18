@@ -2,23 +2,26 @@
 
 .contact-section {
     margin-top: 0px;
-
+    
     background-attachment: fixed;
     background-size: contain;
     padding: 40px;
     font-weight: bold;
 }
 
-.form-inscription h1 {
+.form-connexion h1 {
     text-align: center;
     color: rgb(157, 196, 93);
     font-size: 40px;
+   
 }
 
-.form-inscription {
+.form-connexion {
+
+    align-content: right;
   
-    float: left;
-    width: 60%;
+    margin-left: 60%;
+    
 }
 
 .border {
@@ -28,14 +31,14 @@
     margin: 40px auto;
 }
 
-.contact-form {
+.connexion-form {
     max-width: 600px;
     margin: auto;
     padding: 0 10px;
     overflow: hidden;
 }
 
-.contact-form-text {
+.connexion-form-text {
     display: block;
     width: 100%;
     box-sizing: border-box;
@@ -49,11 +52,11 @@
     border-radius: 20PX;
 }
 
-.contact-form-text:focus {
+.connexion-form-text:focus {
     box-shadow: 0 0 10px 4px rgb(157, 196, 93);
 }
 
-.contact-form-btn {
+.connexion-form-btn {
     float: right;
     border: 0;
     background: rgb(157, 196, 93);
@@ -67,25 +70,25 @@
     font-weight: bold;
 }
 
-.contact-form-btn:hover {
+.connexion-form-btn:hover {
     background: olivedrab;
 }
 
-::placeholder{
-    color:white;
+::placeholder {
+    color: white;
     font-weight: bold;
     font-size: 22px;
-    
 }
 
-.contact-form label{
-
+.connexion-form label {
     color: rgb(157, 196, 93);
     font-weight: bold;
     font-size: 32px;
-
 }
-.contact-form input{
+
+.connexion-form input {
     font-size: 22px;
     font-weight: bold;
 }
+
+
