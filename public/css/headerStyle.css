@@ -57,9 +57,9 @@ body
     align-items: center;
 
 }
-.header ul li
-{
-    position: relative;
+.header ul li{
+    align-items: center;
+    /* position: relative; */
     list-style: none;
    
 }

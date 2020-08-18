@@ -13,15 +13,13 @@
     text-align: center;
     color: rgb(157, 196, 93);
     font-size: 40px;
-   
 }
 
 .form-connexion {
-
-    align-content: right;
-  
-    margin-left: 60%;
-    
+    display: block;
+    float: right;
+    width: 50%;
+    padding-right: 400px;
 }
 
 .border {

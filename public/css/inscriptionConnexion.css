@@ -9,10 +9,17 @@
     font-weight: bold;
 }
 
-.form-connexion h1 {
+.form-inscription h1 {
     text-align: center;
     color: rgb(157, 196, 93);
     font-size: 40px;
+}
+
+.form-inscription {
+  display: block;
+    float: left;
+    width: 50%;
+    padding-left: 400px;
 }
 
 .border {
@@ -22,14 +29,14 @@
     margin: 40px auto;
 }
 
-.connexion-form {
+.contact-form {
     max-width: 600px;
     margin: auto;
     padding: 0 10px;
     overflow: hidden;
 }
 
-.connexion-form-text {
+.contact-form-text {
     display: block;
     width: 100%;
     box-sizing: border-box;
@@ -43,11 +50,11 @@
     border-radius: 20PX;
 }
 
-.connexion-form-text:focus {
+.contact-form-text:focus {
     box-shadow: 0 0 10px 4px rgb(157, 196, 93);
 }
 
-.connexion-form-btn {
+.contact-form-btn {
     float: right;
     border: 0;
     background: rgb(157, 196, 93);
@@ -61,24 +68,24 @@
     font-weight: bold;
 }
 
-.connexion-form-btn:hover {
+.contact-form-btn:hover {
     background: olivedrab;
 }
 
-::placeholder {
-    color: white;
+::placeholder{
+    color:white;
     font-weight: bold;
     font-size: 22px;
 }
 
-.connexion-form label{
+.contact-form label{
+
     color: rgb(157, 196, 93);
     font-weight: bold;
     font-size: 32px;
-}
 
-.connexion-form input{
+}
+.contact-form input{
     font-size: 22px;
     font-weight: bold;
-    }
 }
