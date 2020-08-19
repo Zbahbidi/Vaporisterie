@@ -19,17 +19,17 @@ img {
     object-fit: cover;
 }
 
-.col-4 {
+/* .col-4 {
     width: 30%;
     float: left;
     padding: 30px 70px;
-}
+} */
 
 .col-8 {
     width: 66%;
     float: left;
 }
-
+/* 
 .col-4 h1 {
     font-size: 40px;
     border-bottom: 3px solid rgb(157, 196, 93);
@@ -37,15 +37,15 @@ img {
     padding-bottom: 10px;
     font-family: Playfair;
 }
-
+/* 
 .col-4 p {
-    font-size: 15px;
+    font-size: 15px; */
     line-height: 24px;
     font-weight: 500;
     opacity: .8;
-}
+} */
 
-.col-4 a {
+/* .col-4 a {
     display: inline-block;
     padding: 12px 35px;
     background-color: rgb(157, 196, 93);
@@ -55,7 +55,7 @@ img {
     font-size: 14px;
     text-transform: uppercase;
     margin-top: 40px;
-}
+} */
 
 .glide__arrows {
     position: absolute;
