@@ -19,42 +19,33 @@ img {
     object-fit: cover;
 }
 
-/* .col-4 {
-    width: 30%;
-    float: left;
-    padding: 30px 70px;
-} */
-
-.col-8 {
-    width: 66%;
-    float: left;
+.carou {
+    padding-top: 100px;
+    float: none;
+    align-items: center;
+    height: 700px;
 }
-/* 
-.col-4 h1 {
-    font-size: 40px;
-    border-bottom: 3px solid rgb(157, 196, 93);
-    margin-bottom: 20px;
-    padding-bottom: 10px;
-    font-family: Playfair;
-} */
 
-/* .col-4 p {
-    font-size: 15px;
-    line-height: 24px;
-    font-weight: 500;
-    opacity: .8;
-} */
+.titreAccueil h1 {
+        float: left;
+        color: rgb(85, 84, 84);
+        margin-left: 90px;
+}
 
-.col-4 a {
-    display: inline-block;
-    padding: 12px 35px;
-    background-color: rgb(157, 196, 93);
-    color: #fff;
-    border-radius: 50px;
-    text-decoration: none;
-    font-size: 14px;
-    text-transform: uppercase;
-    margin-top: 40px;
+.communaute h2 {
+text-align: center;
+color: rgb(124, 160, 66);
+font-weight: bold;
+font-size: 30px;
+margin-top: 20px;
+}
+
+.communaute p {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+     color: rgb(85, 84, 84);
 }
 
 .glide__arrows {
@@ -62,10 +53,10 @@ img {
     bottom: -30px;
 }
 
-.glide__arrows .glide__arrow {
-    background: rgb(157, 196, 93);
+/* .glide__arrows .glide__arrow {
+    background: rgb(151, 55, 163);
     border: none;
-    width: 35px;
+    width: 50px;
     height: 35px;
     text-align: center;
     line-height: 35px;
@@ -75,7 +66,7 @@ img {
     outline: none;
     margin-right: 15px;
     padding: 0;
-}
+} */
 
 .glide__arrows .glide__arrow .glide__arrow--left {
     left: 0;
@@ -87,8 +78,9 @@ img {
 
 .glide__slide {
     transform: scale(.9);
-    filter: brightness(50%);
+    filter: brightness(70%);
     transition: all ease 0.5s;
+    border: none;
 }
 
 .glide__slide.glide__slide--active {
