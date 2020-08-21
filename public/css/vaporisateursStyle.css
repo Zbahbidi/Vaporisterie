@@ -1,70 +1,204 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
 
-.article{
-   margin: 50px;
-   padding:60px;
+.corpsPage {
+    position: relative;
+    top: 0;
+}
+
+.contenuMsgs {
+    margin-bottom: 100px;
+    position: relative;
+    box-sizing: border-box;
 
 }
 
-.button-article {
-    display: inline-block;
-    background-color: rgb(157, 196, 93);
-    border-radius: 2px;
-    border: 2px double #ffffff;
-    color: #ffffff;
+.horizontalCenter {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.msgAccueil {
+    position: relative;
+    display: block;
     text-align: center;
-    font-size: 18px;
-    padding: 1px;
-    width: 80px;
-    -webkit-transition: all 0.5s;
-    -moz-transition: all 0.5s;
-    -o-transition: all 0.5s;
-    transition: all 0.5s;
-    cursor: pointer;
-    margin: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    top: 60px;
 }
 
-.phrase{
-    color: rgb(157, 196, 93);
-    margin: auto;
-    padding: 10px 10px;
+.contentMsgAccueil {
+    font-size: 32px;
+}
+
+.phrase {
+    position: relative;
+    box-sizing: border-box;
+}
+
+.phrase .contentPhrase {
+    text-align: center;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.phrase .phrase-commu {
+    font-size: 35px;
+    margin-top: -150px;
+    padding-top: -150px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+
+.container {
+    position: relative;
+    margin-top: 0;
+    margin-bottom: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 2300px;
+    height: 450px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0px;
+    padding-bottom: 30px;
+    background: rgb(255, 255, 255);
+    border: none;
+
+}
+
+.titleTendance {
+    margin-top: 100px;
+    padding-left: 1000px;
+
+}
+
+.titleTendance .contentPhrase h2 {
+
+    align-content: center;
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+
+}
+
+.container .card {
+    position: relative;
+    max-width: 300px;
+    height: 200px;
+    margin-top: 0px;
+    padding: 0px 15px;
+    display: flex;
+    flex-direction: column;
+    /* box-shadow: 0 5px 20px rgb(157, 196, 93); */
+    transition: 0.3s ease-in-out;
+    background: #fff;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container .card:hover {
+    height: 420px;
+}
+
+.container .card .imgBx {
+    position: relative;
+    widows: 260px;
+    height: 400px;
+    /* top: -60px; */
+
+
+    top: -20px;
+    left: 20px;
+    z-index: 1;
+    box-shadow: 0 5px 20px color: rgba(242, 245, 242, 0.5);
+}
+
+.container .card .imgBx img {
+    max-width: 100%;
+    border-radius: 4px;
+
+
+}
+
+.container .card .content {
+    position: relative;
+    margin-top: 250px;
+    padding: 20px 15px;
+    text-align: center;
+    color: #111;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+    padding-bottom: 5%;
+}
+
+.container .card:hover .content {
+    visibility: visible;
+    opacity: 1;
+    margin-top: -40px;
+    transition-delay: 0.3s;
+    filter: brightness(60%);
+
+
+}
+
+.container .card .content h2 {
+    font-size: 30px;
+    margin-top: 0px;
+    color:rgb(157, 196, 93);
+    font-weight: bold;
+}
+
+.container .content p {
     font-size: 20px;
     font-weight: bold;
 }
-.phrase-commu{
-    text-align: center;
-}
-.phrase-commu p{
-    text-align: center;
-    font-weight: bold;
-}
 
-.content{
+.container .content a {
     color: rgb(157, 196, 93);
-}
-p{
+    font-size: 18px;
+    font-weight: bold;
 
-    color: rgb(133, 133, 133);
-    margin-top: 10px;
 }
 
-.buttonCard{
+
+.corpsPage h2 {
+    font-size: 30px;
+    color: rgb(157, 196, 93);
+    margin-bottom: 7%;
+    margin-top: 12%;
+
+}
+
+.buttonCard {
+    position: relative;
+    max-width: 200px;
+    height: 215px;
+    margin-top: -50px;
+    padding: 0px 15px;
+    display: flex;
+    flex-direction: column;
+    /* box-shadow: 0 5px 20px rgb(157, 196, 93); */
+    transition: 0.3s ease-in-out;
+    background: #fff;
+    margin-left: auto;
+    margin-right: auto;
     border: none;
 }
-.buttonCard:hover{
-opacity: 1;
-visibility: visible;
-transition-delay: 0.01s;
-border: none;
-filter: brightness(2);
-cursor: pointer;
+
+.buttonCard :hover {
+
+    cursor: pointer;
 }
 
-.buttonCard img {
-    background-color: #ffffff;
-}
-
-.card .imgBX {
-    color: rgb(255, 255, 255);
-    background-color: #ffffff;
-}
+*/

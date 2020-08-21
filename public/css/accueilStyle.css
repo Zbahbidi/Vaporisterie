@@ -40,6 +40,13 @@
   font-size: 24px;
   line-height: 28px;
 }
+.phrase .phrase-commu{
+  font-size: 45px;
+  margin-top: -30px;
+  text-align: center;
+  margin-bottom: 50px;
+
+}
 
 .container {
   position: relative;
@@ -47,7 +54,7 @@
   margin-left: auto;
   margin-right: auto;
   width: 2300px;
-  height: 600px;
+  height: 450px;
   display: flex;
   justify-content: left;
   align-items: center;
@@ -66,8 +73,9 @@ padding-left: 1000px;
 .titleTendance .contentPhrase h2 {
  
   align-content: center;
-  padding-top: 30px;
-
+  margin-top: 0px;
+  padding-top: 0px;
+padding-bottom: 0px;
 
 }
 
