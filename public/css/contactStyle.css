@@ -68,3 +68,9 @@ color: green;
 
 background-color: red;
 }
+
+::placeholder{
+  color: #fff;
+  font-size: large;
+  font-weight: bold;
+}
