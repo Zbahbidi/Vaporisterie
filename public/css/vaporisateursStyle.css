@@ -113,7 +113,7 @@
 .container .card .imgBx {
     position: relative;
     widows: 260px;
-    height: 400px;
+    height: 200px;
     /* top: -60px; */
 
 
@@ -182,8 +182,8 @@
 
 .buttonCard {
     position: relative;
-    max-width: 200px;
-    height: 215px;
+    max-width: 215px;
+    height: 200px;
     margin-top: -50px;
     padding: 0px 15px;
     display: flex;
