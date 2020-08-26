@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+.corpsPage {
+    position: relative;
+    top: 0;
+}
+
+.contenuMarque {
+    margin-bottom: 100px;
+    position: relative;
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.corpsPage h1 {
+    font-size: 50px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    color: rgb(157, 196, 93);
+    font-weight: bold;
+}
+
+.corpsPage h2 {
+    font-size: 24px;
+    color: rgb(85, 84, 84);
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    text-align: center;
+}
+
+.container {
+    display: block;
+    margin-top: -90px;
+    padding-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    height: 700px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0px;
+    background: rgb(255, 255, 255);
+    border: none;
+
+}
+
+.container .card {
+    position: relative;
+    max-width: 600px;
+    height: 215px;
+    margin-top: 0px;
+    padding: 0px 15px;
+    display: flex;
+    flex-direction: column;
+    /* box-shadow: 0 5px 20px rgb(157, 196, 93); */
+    transition: 0.3s ease-in-out;
+    background: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+}
+
+.container .card:hover {
+    height: 420px;
+}
+
+.container .card .imgBx {
+    position: relative;
+    widows: 260px;
+    height: 400px;
+    top: -20px;
+    left: 20px;
+    z-index: 1;
+    box-shadow: 0 5px 20px;
+    color: rgba(242, 245, 242, 0.5);
+}
+
+.container .card .imgBx img {
+    /* max-width: 100%; */
+    /* border-radius: 4px; */
+width: 250px;
+
+}
+
+.container .card .content {
+    position: relative;
+    margin-top: 250px;
+    padding: 20px 15px;
+    text-align: center;
+    color: #111;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+    padding-bottom: 5%;
+}
+
+.container .card .content p {
+
+    margin-top: 0px;
+    padding-top: 0px;
+    color: rgb(85, 84, 84);
+    font-size: 22px;
+    font-weight: bold;
+    width: 700px;
+
+}
+
+.container .card:hover .content {
+    visibility: visible;
+    opacity: 1;
+    margin-top: -40px;
+    transition-delay: 0.3s;
+}
+
+.container .card .content h2 {
+    padding-top: 30px;
+    margin-top: 5px;
+    color: rgb(157, 196, 93);
+    font-size: 24px;
+
+}
+
+.buttonCard {
+    position: relative;
+    max-width: 300px;
+    height: 215px;
+    margin-top: -50px;
+    padding: 0px 15px;
+    display: flex;
+    flex-direction: column;
+    /* box-shadow: 0 5px 20px rgb(157, 196, 93); */
+    transition: 0.3s ease-in-out;
+    background: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+}
+
+.buttonCard :hover {
+
+    cursor: pointer;
+}
+
+.border {
+    width: 100px;
+    height: 10px;
+    background: rgb(157, 196, 93);
+    margin: 20px auto;
+    margin-top: 0px;
+    margin-bottom: 25px;
+
+}
